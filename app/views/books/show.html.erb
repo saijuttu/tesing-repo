@@ -1,9 +1,9 @@
-<%= link_to("Back to List", books_path, class: 'back-link') %>
+<%= link_to("Back to Home Page", books_path) %>
 
-<div class="books show">
+<div>
   <h2>Show book</h2>
 
-  <div class="actions">
+  <div>
     <%= link_to('Edit', edit_book_path(@book)) %>
     <%= link_to('Delete', delete_book_path(@book)) %>
   </div>
