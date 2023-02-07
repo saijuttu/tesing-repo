@@ -1,7 +1,7 @@
 <p style="color: green"><%= notice %></p>
 
 <h1>Home Page</h1>
-<h1>Testing Push for auto deploy</h1>
+
 
 <div>
     <%= link_to "New book", new_book_path, class: 'action new' %>
